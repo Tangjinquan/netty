@@ -22,19 +22,19 @@ public class TestServerHandler extends SimpleChannelInboundHandler<HttpObject> {
 
         System.out.println(msg.getClass());
         System.out.println(ctx.channel().remoteAddress());
-        if(msg instanceof HttpRequest){
-        HttpRequest httpRequest =(HttpRequest)msg;
-        System.out.println("请求方法名" + (httpRequest.method().name()));
-        URI uri = new URI(httpRequest.uri());
-        if("/favicon.ico".equals(uri.getPath())){
-            System.out.println("请求favicon,ico");
-            return ;
-        }
-        ByteBuf byteBuf = Unpooled.copiedBuffer("hi,netty", CharsetUtil.UTF_8);
-        DefaultFullHttpResponse httpResponse = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK, byteBuf);
-        httpResponse.headers().set(HttpHeaderNames.CONTENT_TYPE,"text/plain");
-        httpResponse.headers().set(HttpHeaderNames.CONTENT_LENGTH,byteBuf.readableBytes());
-        ctx.writeAndFlush(httpResponse);
+        if (msg instanceof HttpRequest) {
+            HttpRequest httpRequest = (HttpRequest) msg;
+            System.out.println("请求方法名" + (httpRequest.method().name()));
+            URI uri = new URI(httpRequest.uri());
+            if ("/favicon.ico".equals(uri.getPath())) {
+                System.out.println("请求favicon,ico");
+                return;
+            }
+            ByteBuf byteBuf = Unpooled.copiedBuffer("hi,netty", CharsetUtil.UTF_8);
+            DefaultFullHttpResponse httpResponse = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK, byteBuf);
+            httpResponse.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain");
+            httpResponse.headers().set(HttpHeaderNames.CONTENT_LENGTH, byteBuf.readableBytes());
+            ctx.writeAndFlush(httpResponse);
         }
 
     }
