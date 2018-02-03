@@ -12,7 +12,4 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile(
-            "io.netty:netty-all:4.1.16.Final"
-    )
 }
