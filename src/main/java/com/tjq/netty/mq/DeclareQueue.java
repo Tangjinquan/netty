@@ -11,7 +11,7 @@
  * 1.0.0		2018/2/3	       Tyson	               初次做成
  * =============================================================
  */
-package com.tjq.netty.com.tjq.mq;
+package com.tjq.netty.mq;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
