@@ -7,15 +7,14 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
- *
- * @Description: TODO
  * @author tangjinquan
- * @date 2017/10/20下午3:42
  * @version V1.0
+ * @Description: TODO
+ * @date 2017/10/20下午3:42
  */
 public class TestServer {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         NioEventLoopGroup bossGroup = new NioEventLoopGroup();
         NioEventLoopGroup workerGroup = new NioEventLoopGroup();
 
@@ -26,6 +25,7 @@ public class TestServer {
             ChannelFuture channelFuture = serverBootstrap.bind(5757).sync();
             channelFuture.channel().closeFuture().sync();
         } finally {
+
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
         }
