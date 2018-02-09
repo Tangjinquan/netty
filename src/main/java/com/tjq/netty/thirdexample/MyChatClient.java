@@ -25,10 +25,9 @@ public class MyChatClient {
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-            for (; ; ) {
+            while(true){
                 channel.writeAndFlush(br.readLine() + "\r\n");
             }
-
         } finally {
             eventGroup.shutdownGracefully();
         }
