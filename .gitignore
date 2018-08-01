@@ -34,3 +34,5 @@ hs_err_pid*
 !**/share/*
 .idea
 .DS_Store
+.gradle
+.gradle/4.6
