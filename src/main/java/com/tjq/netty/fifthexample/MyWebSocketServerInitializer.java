@@ -9,13 +9,12 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
 /**
- *
- * @Description: TODO
  * @author tangjinquan
- * @date 2017/11/10下午2:36
  * @version V1.0
+ * @Description: TODO
+ * @date 2017/11/10下午2:36
  */
-public class MyWebSocketServerInitializer extends ChannelInitializer<SocketChannel>{
+public class MyWebSocketServerInitializer extends ChannelInitializer<SocketChannel> {
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();

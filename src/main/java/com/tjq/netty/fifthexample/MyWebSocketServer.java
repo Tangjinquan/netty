@@ -10,11 +10,10 @@ import io.netty.handler.logging.LoggingHandler;
 import java.net.InetSocketAddress;
 
 /**
- *
- * @Description: 基于websocket的长连接
  * @author tangjinquan
- * @date 2017/11/10下午2:34
  * @version V1.0
+ * @Description: 基于websocket的长连接
+ * @date 2017/11/10下午2:34
  */
 public class MyWebSocketServer {
     public static void main(String[] args) throws Exception {
