@@ -3,6 +3,7 @@ package com.tjq.netty.secondexample;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import org.omg.PortableInterceptor.ACTIVE;
 
 import java.util.UUID;
 
@@ -24,4 +25,6 @@ public class MyServerHandler extends SimpleChannelInboundHandler<String> {
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         super.exceptionCaught(ctx, cause);
     }
+
+
 }
