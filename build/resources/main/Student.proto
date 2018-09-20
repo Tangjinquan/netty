@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package com.tjq.netty.proto;
+
+option java_package = "com.tjq.netty.proto";
+option java_outer_classname = "StudentProto";
+option java_multiple_files = true;
+
+service StudentService {
+    rpc GetRealnameByUserName (MyRequest) returns (MyResponse) {
+    };
+
+    //参数必须用自己定义的参数
+    rpc GetStudentByAge (StudentRequest) returns (stream StudentResponse) {
+    };
+}
+
+message MyRequest {
+    string username = 1;
+}
+
+message MyResponse {
+    string realname = 2;
+}
+
+message StudentRequest {
+    int32 age = 2;
+}
+
+message StudentResponse {
+    string name = 1;
+    int32 age = 2;
+    string city = 3;
+}
