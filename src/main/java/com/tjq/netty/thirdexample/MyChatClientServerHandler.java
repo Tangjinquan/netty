@@ -5,7 +5,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
  *
- * @Description: TODO
+ * @Description: 服务器端与客户端的一对多的连接
  * @author tangjinquan
  * @date 2017/11/10下午2:19
  * @version V1.0

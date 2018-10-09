@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 /**
  *
- * @Description: TODO
+ * @Description: RPC连接
  * @author tangjinquan
  * @date 2017/10/31上午10:30
  * @version V1.0

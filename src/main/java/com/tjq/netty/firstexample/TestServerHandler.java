@@ -11,7 +11,7 @@ import java.net.URI;
 
 /**
  *
- * @Description: TODO
+ * @Description: http链接
  * @author tangjinquan
  * @date 2017/10/20下午4:52
  * @version V1.0

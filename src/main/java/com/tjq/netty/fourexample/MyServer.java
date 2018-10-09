@@ -9,7 +9,7 @@ import io.netty.handler.logging.LoggingHandler;
 
 /**
  *
- * @Description: TODO
+ * @Description: 心跳检测
  * @author tangjinquan
  * @date 2017/11/10下午2:34
  * @version V1.0

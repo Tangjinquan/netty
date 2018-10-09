@@ -7,7 +7,7 @@ import io.netty.handler.codec.http.HttpServerCodec;
 
 /**
  *
- * @Description: TODO
+ * @Description: http链接
  * @author tangjinquan
  * @date 2017/10/20下午4:46
  * @version V1.0

@@ -22,7 +22,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @Description: TODO
+ * @Description: 基于protobuf的编解码支持
  * @author Tyson
  * @date 2018/8/29下午3:02
  * @version V1.0

@@ -21,7 +21,7 @@ import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 
 /**
  *
- * @Description: TODO
+ * @Description: 基于protobuf的编解码支持
  * @author Tyson
  * @date 2018/8/29下午3:03
  * @version V1.0

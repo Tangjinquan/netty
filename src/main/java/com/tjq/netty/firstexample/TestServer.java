@@ -9,7 +9,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 /**
  * @author tangjinquan
  * @version V1.0
- * @Description: TODO
+ * @Description: http链接
  * @date 2017/10/20下午3:42
  */
 public class TestServer {

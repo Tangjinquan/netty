@@ -8,7 +8,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 /**
  * @author tangjinquan
  * @version V1.0
- * @Description: TODO
+ * @Description: 服务器端与客户端的一对多的连接
  * @date 2017/11/2上午9:51
  */
 public class MyChatServer {

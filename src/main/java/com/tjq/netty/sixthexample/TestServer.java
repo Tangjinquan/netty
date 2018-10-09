@@ -23,7 +23,7 @@ import java.net.InetSocketAddress;
 /**
  * @author Tyson
  * @version V1.0
- * @Description: TODO
+ * @Description: 基于protobuf的编解码支持
  * @date 2018/8/29下午2:54
  */
 public class TestServer {

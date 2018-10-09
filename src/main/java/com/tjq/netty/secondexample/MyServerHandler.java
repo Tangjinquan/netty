@@ -9,7 +9,7 @@ import java.util.UUID;
 
 /**
  *
- * @Description: TODO
+ * @Description: RPC连接
  * @author tangjinquan
  * @date 2017/10/31上午10:13
  * @version V1.0

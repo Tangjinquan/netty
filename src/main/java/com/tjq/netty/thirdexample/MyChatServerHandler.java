@@ -9,7 +9,7 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 
 /**
  *
- * @Description: TODO
+ * @Description: 服务器端与客户端的一对多的连接
  * @author tangjinquan
  * @date 2017/11/2上午10:05
  * @version V1.0

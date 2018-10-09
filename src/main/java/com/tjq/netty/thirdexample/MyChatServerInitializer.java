@@ -12,7 +12,7 @@ import io.netty.util.CharsetUtil;
 
 /**
  *
- * @Description: TODO
+ * @Description: 服务器端与客户端的一对多的连接
  * @author tangjinquan
  * @date 2017/11/2上午9:57
  * @version V1.0

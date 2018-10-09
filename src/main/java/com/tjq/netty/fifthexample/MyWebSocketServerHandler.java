@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 /**
  * @author tangjinquan
  * @version V1.0
- * @Description: TODO
+ * @Description: 基于websocket的长连接
  * @date 2017/11/10下午2:39
  */
 public class MyWebSocketServerHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {

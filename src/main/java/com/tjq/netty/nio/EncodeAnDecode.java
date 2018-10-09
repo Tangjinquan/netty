@@ -51,8 +51,8 @@ public class EncodeAnDecode {
         CharsetDecoder charsetDecoder = charset.newDecoder();
         CharsetEncoder charsetEncoder = charset.newEncoder();
 
-        CharBuffer charBuffer = charsetDecoder.decode(inputData);
-        ByteBuffer outputdata = charsetEncoder.encode(charBuffer);
+        CharBuffer charBuffer = charsetDecoder.decode(inputData); //将字节解码成char
+        ByteBuffer outputdata = charsetEncoder.encode(charBuffer); //将char编码成字节
         outputChannel.write(outputdata);
         inputRandomAccessFile.close();
         outputRandomAccessFile.close();

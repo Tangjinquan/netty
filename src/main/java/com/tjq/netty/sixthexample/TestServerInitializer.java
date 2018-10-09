@@ -23,7 +23,7 @@ import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 /**
  * @author Tyson
  * @version V1.0
- * @Description: TODO
+ * @Description: 基于protobuf的编解码支持 协议的定制方式
  * @date 2018/8/29下午2:56
  */
 public class TestServerInitializer extends ChannelInitializer<SocketChannel> {

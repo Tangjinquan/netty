@@ -6,7 +6,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 
 /**
  *
- * @Description: TODO
+ * @Description: 心跳检测
  * @author tangjinquan
  * @date 2017/11/10下午2:39
  * @version V1.0

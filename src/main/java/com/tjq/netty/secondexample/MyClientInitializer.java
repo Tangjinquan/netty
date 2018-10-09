@@ -11,7 +11,7 @@ import io.netty.util.CharsetUtil;
 
 /**
  *
- * @Description: TODO
+ * @Description: RPC连接
  * @author tangjinquan
  * @date 2017/10/31上午10:27
  * @version V1.0

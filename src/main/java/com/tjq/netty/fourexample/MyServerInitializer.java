@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * @Description: TODO
+ * @Description: 心跳检测
  * @author tangjinquan
  * @date 2017/11/10下午2:36
  * @version V1.0

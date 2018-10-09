@@ -11,7 +11,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 /**
  * @author tangjinquan
  * @version V1.0
- * @Description: TODO
+ * @Description: 基于websocket的长连接
  * @date 2017/11/10下午2:36
  */
 public class MyWebSocketServerInitializer extends ChannelInitializer<SocketChannel> {
