@@ -16,6 +16,8 @@ package com.tjq.netty.date;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
+import java.time.LocalDateTime;
+
 
 /**
  * @author Tyson
@@ -26,6 +28,13 @@ import org.joda.time.LocalDate;
 public class DateTest {
 
     public static void main(String[] args) {
+
+
+        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime localDateTime = LocalDateTime.now().withHour(23).withMinute(59).withSecond(0);
+        boolean after = now.isAfter(localDateTime);
+
+
         DateTime today = new DateTime();
         DateTime nextday = today.plusDays(1);
         System.out.println(today.toString("yyyy-MM-dd"));
@@ -47,5 +56,7 @@ public class DateTest {
         DateTime dateTime = new DateTime();
         DateTime dateTime1 = dateTime.minusYears(2).monthOfYear().setCopy(3).dayOfMonth().withMinimumValue();
         System.out.println(dateTime1.toString("yyyy-MM-dd"));
+
+
     }
 }
